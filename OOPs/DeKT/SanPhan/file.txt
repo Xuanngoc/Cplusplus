@@ -1,0 +1,4 @@
+Ma san pham    Ten san pham    Loai san pham    Gia san pham    Nam san Xuat 
+b024		bank quy		bank		288801		3412
+b025		erasf ád		keo		8635		2109
+b026		cn wj à		3432		307951		2019
