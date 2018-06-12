@@ -38,6 +38,15 @@ public:
 		in >>b.chietKhau;
 		return in;
 	}
+	friend ostream &operator <<(ostream &out, sachkinhte b){
+		out<<b.name<<"\t\t";
+		out<<b.namXB<<"\t\t";
+		out<<b.heso<<"\t\t";
+		out<<b.giaNhap<<"\t\t";
+		out<<b.chietKhau<<"\t\t";
+		out<<b.tinhGiaSach()<<"\t\t\n";
+		return out;
+	}
 
 };
 #endif
